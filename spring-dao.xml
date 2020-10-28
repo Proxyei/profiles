@@ -17,7 +17,7 @@
 	<bean id="dataSource"
 		class="com.alibaba.druid.pool.DruidDataSource">
 		<property name="url"
-			value="jdbc:mysql://localhost:3306/imooc_shiro" />
+			value="jdbc:mysql://localhost:3306/imooc_shiro?useUnicode=true&characterEncoding=UTF-8" />
 		<property name="username" value="root" />
 		<property name="password" value="xieSHI123321" />
 	</bean>
